@@ -1,0 +1,26 @@
+cmd.exe
+/X
+/C
+"C:\jdk-11.0.6\bin\javadoc.exe -html5 @options @packages"
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\allclasses-index.html = 1606731289952
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\allclasses.html = 1606731289971
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\allpackages-index.html = 1606731289959
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\constant-values.html = 1606731289863
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\deprecated-list.html = 1606731289967
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\element-list = 1606731289820
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\help-doc.html = 1606731289992
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\index-all.html = 1606731289941
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\index.html = 1606731289982
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\member-search-index.js = 1606731289935
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\member-search-index.zip = 1606731289937
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\options = 1606731288038
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\overview-summary.html = 1606731289986
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\overview-tree.html = 1606731289896
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\package-search-index.js = 1606731289909
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\package-search-index.zip = 1606731289914
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\packages = 1606731288040
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\script.js = 1606731290002
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\search.js = 1606731290006
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\stylesheet.css = 1606731289998
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\type-search-index.js = 1606731289917
+C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\apidocs\type-search-index.zip = 1606731289932

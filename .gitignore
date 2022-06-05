@@ -1,0 +1,3 @@
+/target/
+**/*.log
+/g08-logger.iml

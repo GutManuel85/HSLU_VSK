@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ch.hslu.vsk.stringpersistor.impl","l":"StringPersistorFile"}]

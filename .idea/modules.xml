@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/g08-game/g08-game.iml" filepath="$PROJECT_DIR$/g08-game/g08-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-logger/g08-logger.iml" filepath="$PROJECT_DIR$/g08-logger/g08-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-logger/logger-common/g08-loggercommon.iml" filepath="$PROJECT_DIR$/g08-logger/logger-common/g08-loggercommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-logger/logger-component/g08-loggercomponent.iml" filepath="$PROJECT_DIR$/g08-logger/logger-component/g08-loggercomponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-logger/logger-server/g08-loggerserver.iml" filepath="$PROJECT_DIR$/g08-logger/logger-server/g08-loggerserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-logger/logger-viewer/g08-loggerviewer.iml" filepath="$PROJECT_DIR$/g08-logger/logger-viewer/g08-loggerviewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g08-stringpersistor/g08-stringpersistor.iml" filepath="$PROJECT_DIR$/g08-stringpersistor/g08-stringpersistor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vsk_project_3.iml" filepath="$PROJECT_DIR$/.idea/vsk_project_3.iml" />
+    </modules>
+  </component>
+</project>

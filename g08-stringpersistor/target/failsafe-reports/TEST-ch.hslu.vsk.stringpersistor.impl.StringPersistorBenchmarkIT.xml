@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="ch.hslu.vsk.stringpersistor.impl.StringPersistorBenchmarkIT" time="0.644" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\test-classes;C:\Users\Manuel\.m2\repository\ch\hslu\vsk\stringpersistor-api\5.0.4\stringpersistor-api-5.0.4.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Manuel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Manuel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Manuel\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Manuel\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Manuel\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\Manuel\.m2\repository\org\junit-pioneer\junit-pioneer\0.9.1\junit-pioneer-0.9.1.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\Manuel\.m2\repository\nl\jqno\equalsverifier\equalsverifier\3.4.3\equalsverifier-3.4.3.jar;C:\Users\Manuel\.m2\repository\org\mockito\mockito-core\3.5.13\mockito-core-3.5.13.jar;C:\Users\Manuel\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\Manuel\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\Manuel\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M5\surefire-junit-platform-3.0.0-M5.jar;C:\Users\Manuel\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\Users\Manuel\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CH"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11.0.6\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Manuel\AppData\Local\Temp\surefire5933785278333910301 2020-11-30T11-14-50_816-jvmRun1 surefire7158628471490021460tmp surefire_05401902627998488044tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\test-classes;C:\Users\Manuel\.m2\repository\ch\hslu\vsk\stringpersistor-api\5.0.4\stringpersistor-api-5.0.4.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Manuel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Manuel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Manuel\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Manuel\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Manuel\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\Manuel\.m2\repository\org\junit-pioneer\junit-pioneer\0.9.1\junit-pioneer-0.9.1.jar;C:\Users\Manuel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\Manuel\.m2\repository\nl\jqno\equalsverifier\equalsverifier\3.4.3\equalsverifier-3.4.3.jar;C:\Users\Manuel\.m2\repository\org\mockito\mockito-core\3.5.13\mockito-core-3.5.13.jar;C:\Users\Manuel\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\Manuel\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\Manuel\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Manuel"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor\target\g08-stringpersistor-1.0.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\jdk-11.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="Manuel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="deployAtEnd" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Manuel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Manuel\AppData\Local\Temp\"/>
+    <property name="installAtEnd" value="true"/>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\JavaProjects\01_HSLU\vsk_project_3\g08-stringpersistor"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\jdk-11.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\jdk-11.0.6\bin;C:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\AOMEI Backupper;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\PHP7;C:\Users\Manuel\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Manuel\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\apache-maven-3.6.3\bin;C:\Users\Manuel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\Manuel\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testWrite" classname="ch.hslu.vsk.stringpersistor.impl.StringPersistorBenchmarkIT" time="0.529"/>
+  <testcase name="testRead" classname="ch.hslu.vsk.stringpersistor.impl.StringPersistorBenchmarkIT" time="0.079"/>
+</testsuite>

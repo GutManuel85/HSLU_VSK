@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="g08-loggercomponent" />
+        <module name="g08-loggerserver" />
+        <module name="g08-loggerviewer" />
+        <module name="g08-stringpersistor" />
+        <module name="g08-loggercommon" />
+        <module name="g08-game" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="g08-game" target="11" />
+      <module name="g08-logger" target="11" />
+      <module name="g08-loggercommon" target="11" />
+      <module name="g08-loggercomponent" target="11" />
+      <module name="g08-loggerserver" target="11" />
+      <module name="g08-loggerviewer" target="11" />
+      <module name="g08-stringpersistor" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="g08-game" options="-Xlint:all,-processing" />
+      <module name="g08-loggercommon" options="-Xlint:all,-processing" />
+      <module name="g08-loggercomponent" options="-Xlint:all,-processing" />
+      <module name="g08-loggerserver" options="-Xlint:all,-processing" />
+      <module name="g08-loggerviewer" options="-Xlint:all,-processing" />
+      <module name="g08-stringpersistor" options="-Xlint:all,-processing" />
+    </option>
+  </component>
+</project>
